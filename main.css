@@ -44,7 +44,6 @@ td {
 .page-title {
   color: blue;
 
-.}
 .python-button {
   width: 144px;
   box-sizing: content-box;
@@ -89,7 +88,7 @@ td {
 }
 /*classes and tags*/
 a.sidebar {
-  font-size: 50px;
+  font-size: 100px;
   color: blue;
 }
 th.rt,
