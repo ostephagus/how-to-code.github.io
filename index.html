@@ -1,23 +1,48 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!-- index.html -->
+<!DOCTYPE html>
+<html class="setup" lang="en-UK">
+  <head>
+    <link rel='stylesheet' type='text/css' href='/Users/Lenovo user/Documents/Coding/html/How to code/Main/main.css'>
+    <title>How to code</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <li class="python-heading"> Python <span class="arrow">&#x25BC;</span></li>
+	  <a href="/Users/Lenovo User//Documents/Coding/html/How to code/Python-page/Python-page.html"><li class="python-object"> Pick your Python&reg; tutorial</li></a>
+	  <li class="python-object">More coming soon!</li>
+	  <li class="htmlCSS-heading">HTML &amp; CSS &#x25BC;</li>
+    </div>
+    <p class="invisible">.</p>
+	<p class="invisible">.</p>
+    <h1 class="index">Welcome to How To Code!</h1>
+    <h2 class="index">The top coding site for beginners!</h2>
+    <p class="index">How to code is the best starting point for a wide range of programming languages. From web design to coded art&mdash;you can count on us to get you started.</p>
+    <h2 class="index">Just choose from the list below and you'll be on your way to a whole new world of code.</h2>
+    <div class="site-button">
+    <p class="index"><div class="python-button"><a class="index" href="/Users/Lenovo User/Documents/CoffeeCup Software/My Websites/How to code/Python-page/Python-page.html">Python</a></div></p>
+    <!--<p class="index"><div class="htmlCSS-button"><a class="index" href="/Users/Lenovo User/Documents/CoffeeCup Software/My Websites/How to code/htmlCSS-page/htmlCSS-page.html">HTML &amp; CSS</a></div></p>
+    <p class="index"><div class="JavaScript-button"><a class="index" href="/Users/Lenovo User/Documents/CoffeeCup Software/My Websites/How to code/JS-page/JS-page.html">JavaScript</a></div></p>-->
+    </div>
+    <p class="index">More Coming Soon...</p>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+	  alert("Hello, coder");
+	  $(document).ready(function() {
+	    $(".python-object").hide;
+		var shown;
+		shown = false;
+		$(".arrow").on("click" function() {
+		  $(".python-object").slideToggle(500);
+		  if (shown === false) {
+		    $(".arrow").text("&#x25B2;");
+			shown = true
+		  } else if (shown === true) {
+		    $(".arrow").text("&#x25BC;");
+			shown = false;
+		  };
+		});
+	});
+    </script>
+    <noscript>Sorry, some parts of this web-page might not work as your browser does not support Java Script. Try a newer browser.</noscript>
+  </body>
+</html>
