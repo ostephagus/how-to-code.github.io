@@ -43,7 +43,8 @@ td {
 }
 .page-title {
   color: blue;
-}
+
+.}
 .python-button {
   width: 144px;
   box-sizing: content-box;
@@ -87,6 +88,10 @@ td {
   text-decoration: underline;
 }
 /*classes and tags*/
+a.sidebar {
+  font-size: 50px;
+  color: blue;
+}
 th.rt,
 td.rt {
   border-style: solid solid none solid;
