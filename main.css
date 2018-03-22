@@ -37,13 +37,9 @@ td {
 }
 .sidebar {
   box-sizing: content-box;
-  height: 25%;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: #3CFF33;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px
 }
 .page-title {
   color: blue;
