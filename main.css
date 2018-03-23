@@ -40,8 +40,8 @@ td {
 }
 .sidebar {
   box-sizing: content-box;
-  height: auto;
-  width: auto;
+  height: 500px;
+  width: 500px;
   background-color: #3CFF33;
 }
 .page-title {
