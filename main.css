@@ -9,12 +9,15 @@ h2 {
   color: orange;
   text-align: center
 }
-p,
 ol,
 ul,
 li {
   font-size: 40px;
   text-align: left;
+}
+p {
+  text-align: center;
+  font-size: 40px;
 }
 a {
   color: green;
