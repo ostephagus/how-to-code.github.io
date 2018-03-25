@@ -40,8 +40,8 @@ td {
 }
 .sidebar {
   box-sizing: content-box;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 100%;
   background-color: #3CFF33;
 }
 .page-title {
@@ -90,7 +90,7 @@ td {
   text-decoration: underline;
 }
 /*classes and tags*/
-a.sidebar {
+.sidebar a {
   font-size: 100px;
   color: blue;
 }
