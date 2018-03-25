@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 
 <html class="setup" lang="en-UK">
 
@@ -28,11 +28,11 @@
 
     <div class="site-button">
 
-    <p class="index"><div class="python-button"><a class="index" href="/Users/Lenovo User/Documents/CoffeeCup Software/My Websites/How to code/Python-page/Python-page.html">Python</a></div></p>
+    <p class="index"><div class="python-button"><a class="index" href="Python-page/Python-page.html">Python</a></div></p>
 
-    <!--<p class="index"><div class="htmlCSS-button"><a class="index" href="/Users/Lenovo User/Documents/CoffeeCup Software/My Websites/How to code/htmlCSS-page/htmlCSS-page.html">HTML &amp; CSS</a></div></p>
+    <!--<p class="index"><div class="htmlCSS-button"><a class="index" href="htmlCSS-page/htmlCSS-page.html">HTML &amp; CSS</a></div></p>
 
-    <p class="index"><div class="JavaScript-button"><a class="index" href="/Users/Lenovo User/Documents/CoffeeCup Software/My Websites/How to code/JS-page/JS-page.html">JavaScript</a></div></p>-->
+    <p class="index"><div class="JavaScript-button"><a class="index" href="/JS-page/JS-page.html">JavaScript</a></div></p>-->
 
     </div>
 
