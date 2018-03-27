@@ -1,3 +1,4 @@
+
 /* tag names */
 h1 {
   font-size: 100px;
@@ -22,6 +23,8 @@ p {
 a {
   color: green;
   text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
 }
 table {
   font-size: 40px;
