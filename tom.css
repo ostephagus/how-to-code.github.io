@@ -5,18 +5,18 @@ h1 {
     font-weight: bold
 }
 body {
-    background: black;
-    color:white;
+    background: white;
+    color:black;
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
 }
 .container {
-    backgorund: grey;
+    backgorund: black;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
     width: 950px;
 }
 .sub-container {
-    background: lightgrey;
+    background: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
 }
 .headers {
