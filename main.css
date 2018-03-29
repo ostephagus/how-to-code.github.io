@@ -4,11 +4,13 @@ h1 {
   font-size: 100px;
   color: cyan;
   text-align: center;
+  font-family: 'Faster One', cursive;
 }
 h2 {
   font-size: 75px;
   color: orange;
-  text-align: center
+  text-align: center;
+  font-family: 'Faster One', cursive;
 }
 ol,
 ul,
