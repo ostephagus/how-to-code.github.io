@@ -13,6 +13,7 @@ body {
 .container {
     backgorund: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+    width: 950px;
 }
 .sub-container {
     background: lightgrey;
