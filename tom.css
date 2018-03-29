@@ -17,3 +17,7 @@ body {
     background: lightgrey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
 }
+.headers {
+    font-family: 'Faster One', cursive;
+}
+    
