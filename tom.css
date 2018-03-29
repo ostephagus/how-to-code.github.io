@@ -8,6 +8,8 @@ body {
     background: black;
     color:white;
     text-align: center;
+    font-family: 'Faster One', cursive;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .container {
     backgorund: grey;
