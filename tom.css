@@ -6,6 +6,7 @@ h1 {
 }
 body {
     background: url(/html-background.png);
+    background-size: cover;
     color:black;
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
