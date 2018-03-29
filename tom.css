@@ -20,7 +20,7 @@ body {
 .sub-container {
     background: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
-    padding: 2px;
+    padding: 0.5px;
 }
 .headers {
     font-family: 'Faster One', cursive;
