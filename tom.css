@@ -15,10 +15,12 @@ body {
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
     width: 950px;
     margin: auto;
+    padding: 10px;
 }
 .sub-container {
     background: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+    padding: 5px;
 }
 .headers {
     font-family: 'Faster One', cursive;
