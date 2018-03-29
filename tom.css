@@ -18,7 +18,8 @@ body {
     margin: auto;
     padding: 10px;
 }
-.sub-container {
+.sub-container,
+footer {
     background: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
 }
