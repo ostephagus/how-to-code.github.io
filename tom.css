@@ -5,7 +5,7 @@ h1 {
     font-weight: bold
 }
 body {
-    background: white;
+    background: url(/html-background.png);
     color:black;
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
