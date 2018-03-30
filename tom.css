@@ -27,5 +27,5 @@ footer {
     font-family: 'Faster One', cursive;
 }
 .h1-8 {
-    display: inline;
+    display: grid;
 }
