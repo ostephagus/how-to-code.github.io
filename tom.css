@@ -27,5 +27,6 @@ footer {
     font-family: 'Faster One', cursive;
 }
 .h1-8 {
-    display: block;
+    display: table;
+    table-layout: fixed;
 }
