@@ -116,6 +116,7 @@ p.index,
 .site-button {
   color: whitesmoke;
   text-decoration: none;
+  text-align: center;
 }
 p.index {
   box-sizing: border-box;
