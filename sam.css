@@ -1,4 +1,5 @@
-
+/* @imports */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
 /* tag names */
 h1 {
   font-size: 100px;
@@ -85,12 +86,12 @@ td {
   height: 55px;
 }
 .code {
-  font-family: "Courier New", "Space Mono", monospace;
+  font-family: 'space mono', monospace;
   font-size: 40px;
 }
 .prompt {
   color: DarkRed;
-  font-family:"Courier New";
+  font-family: "space mono", monospace;
 }
 .keyword {
   color: orange;
