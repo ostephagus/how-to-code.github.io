@@ -43,9 +43,7 @@ td {
 .invisible {
   opacity: 0;
 }
-.bt {
-  border-style: solid none solid solid;
-}
+
 .sidebar {
   box-sizing: content-box;
   height: 300px;
@@ -148,6 +146,9 @@ li.JS-object {
   color: brown;
 }
 /* IDs */
+#bt {
+  border-style: solid none solid solid;
+}
 /* IDs and tags */
 /* colons */
 a:hover {
