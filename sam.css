@@ -49,6 +49,7 @@ td {
   height: 300px;
   width: 25px;
   background-color: #3CFF33;
+  position: relative;
 }
 .page-title {
   color: blue;
