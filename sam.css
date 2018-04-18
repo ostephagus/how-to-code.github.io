@@ -47,7 +47,7 @@ td {
 .sidebar {
   box-sizing: content-box;
   height: 300px;
-  width: 100%;
+  width: 25px;
   background-color: #3CFF33;
 }
 .page-title {
