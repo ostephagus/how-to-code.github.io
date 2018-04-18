@@ -47,7 +47,7 @@ td {
 .sidebar {
   box-sizing: content-box;
   height: 300px;
-  width: 25px;
+  width: 250px;
   background-color: #3CFF33;
   position: relative;
 }
