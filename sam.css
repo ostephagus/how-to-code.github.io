@@ -50,6 +50,7 @@ td {
   width: 250px;
   background-color: #3CFF33;
   position: relative;
+  z-index: 1;
 }
 .page-title {
   color: blue;
