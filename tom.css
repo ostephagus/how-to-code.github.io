@@ -17,6 +17,7 @@ body {
     width: 950px;
     margin: auto;
     padding: 10px;
+    border-radius: 25px;
 }
 .sub-container,
 footer {
