@@ -46,11 +46,13 @@ td {
 
 .sidebar {
   box-sizing: content-box;
+	border-radius: 25px;
   height: 300px;
-  width: 250px;
+  width: 100%;
   background-color: #3CFF33;
   position: relative;
   z-index: 1;
+	overflow: scroll;
 }
 .page-title {
   color: blue;
