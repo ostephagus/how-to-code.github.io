@@ -23,7 +23,9 @@ body {
 footer {
     background: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
-    width: 729px
+    width: 729px;
+    border-radius: 25px;
+    padding: 20px
 }
 .headers {
     font-family: 'Faster One', cursive;
