@@ -16,13 +16,14 @@ body {
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
     width: 950px;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 25px;
 }
 .sub-container,
 footer {
     background: grey;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+    width: 729px
 }
 .headers {
     font-family: 'Faster One', cursive;
