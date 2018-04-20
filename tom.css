@@ -25,7 +25,9 @@ footer {
     box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
     width: 775px;
     border-radius: 25px;
-    padding: 20px
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
 }
 .headers {
     font-family: 'Faster One', cursive;
