@@ -1,6 +1,11 @@
 /* @imports */
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 /* tag names */
+body {
+	padding: 20px;
+	overflow: hidden;
+	margin-right: 0px;
+}
 h1 {
   font-size: 100px;
   color: cyan;
