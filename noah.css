@@ -1,12 +1,24 @@
-h1 {
-  font-size: 150px;
-  color: blue;
+body {
+  background: white
   text-align: center;
+  color: azure
 }
-
 p {
-  color: darkGreen;
-  text-align: center;
-} 
- 
-
+  color: white;
+}
+h1 {
+  font-weight: bold;
+}
+.container {
+  background:gray;
+    width: 800px;
+    margin:auto;
+  padding: 50px;
+}
+.sub-container{
+  background:black;
+  width: 800px;
+  background: 3px 3px 8px
+    rgba(0,0,0,0.5);
+  padding: 5px;
+}
