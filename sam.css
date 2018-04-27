@@ -48,7 +48,9 @@ td {
   opacity: 0;
 }
 
-sidebar {
+sidebar,
+.sidebar,
+nav {
   box-sizing: content-box;
 	border-radius: 25px;
   height: 300px;
