@@ -51,13 +51,13 @@ td {
 sidebar,
 .sidebar,
 nav {
-  box-sizing: content-box;
+ 	box-sizing: content-box;
 	border-radius: 25px;
-  height: 300px;
-  width: 97%;
-  background-color: #3CFF33;
-  position: relative;
-  z-index: 1;
+ 	height: 300px;
+ 	width: 97%;
+ 	background-color: #3CFF33;
+ 	position: relative;
+ 	z-index: 1;
 	text-align: center !important;
 	padding: 20px;
 }
