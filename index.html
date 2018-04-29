@@ -14,7 +14,20 @@
     <title>How to code</title>
   </head>
   <body>
-    <p>Sorry, we're working around the clock on cool new additions to the website. It should be up and running again by May 2018. Sorry for any inconvenience caused.</p>
+    <p>Sorry, we're working around the clock on cool new additions to the website. It should be up and running again in <span id="date"></span> days. Sorry for any inconvenience caused.</p>
     <h4>~ The How To Code team</h4>
+    <script>
+      var d = new Date();
+      var date = d.getDate();
+      if (date > 20) && (date === 29) {
+        var forMonth = -2;
+      } else if (date > 20) && (date === 30) {
+        var forMonth = -1;
+      } else {
+        var forMonth = date;
+      };
+      var daysToGo = 20 - forMonth;
+      document.getElementById("date").innerHTML = daysToGo;
+    </script>
   </body>
 </html>
