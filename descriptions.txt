@@ -1,0 +1,14 @@
+Sam
+Username: ostephagus
+Roles: Joint CEO, python pages creator, domain manager, repo manager
+Pages: index.html, python pages, maintainence.html, page.html, contact.html
+
+Tom
+Username: clubballmark
+Roles: Joint CEO, HTML pages creator
+Pages: index.html, HTML pages, maintainence.html, page.html
+
+Noah
+Username: slowernoah
+Roles: CSS pages creator
+Pages: index.html, CSS pages, maintainence.html, page.html
