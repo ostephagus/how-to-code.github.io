@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html class="setup" lang="en-UK">
-  <head>
-    <style>
-      p {
-        font-size: 40px;
-        text-align: center;
-      }
-      h4 {
-        font-size: 20px;
-        color: deepSeaBlue;
-      }
-    </style>
-    <title>How to code</title>
-  </head>
-  <body>
-    <p>Sorry, we're working around the clock on cool new additions to the website. It should be up and running again in <span id="date"></span> days. Sorry for any inconvenience caused.</p>
-    <h4>~ The How To Code team</h4>
+	<head>
+ 		<title>How to code</title>
+	</head>
+	<body>
+		<p>Sorry, we're working around the clock on cool new additions to the website. It should be up and running again in <span id="date"></span> days. Sorry for any inconvenience caused.</p>
+		<h4>~ The How To Code team</h4>
 		<script>
 			var d = new Date();
 			var date = d.getDate();
@@ -29,5 +19,5 @@
 			var daysToGo = 20 - forMonth;
 			document.getElementById("date").innerHTML = daysToGo;
 		</script>
-  </body>
+	</body>
 </html>
