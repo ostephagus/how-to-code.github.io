@@ -1,5 +1,6 @@
 /* @imports */
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 /* tag names */
 body {
 	padding: 20px;
@@ -9,13 +10,13 @@ h1 {
   font-size: 100px;
   color: cyan;
   text-align: center;
-  font-family: 'Faster One', cursive;
+  font-family: 'Source Code Pro', monospace;
 }
 h2 {
   font-size: 75px;
   color: orange;
   text-align: center;
-  font-family: 'Faster One', cursive;
+  font-family: 'Source Code Pro', monospace;
 }
 ol,
 ul,
