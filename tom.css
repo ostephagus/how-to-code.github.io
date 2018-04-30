@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 .bold {
     font-weight: bold
 }
@@ -9,7 +10,7 @@ body {
     background-size: cover;
     color:black;
     text-align: center;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 .container {
     background: black;
@@ -30,7 +31,7 @@ footer {
     margin-top: 10px;
 }
 .headers {
-    font-family: 'Faster One', cursive;
+    font-family: 'Source Code Pro', monospace;e;
 }
 .h1-8 {
     display: table;
