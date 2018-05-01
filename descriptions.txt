@@ -5,7 +5,7 @@ Pages: index.html, python pages, maintainence.html, page.html, contact.html
 
 Tom
 Username: clubballmark
-Roles: Joint CEO, HTML pages creator
+Roles: Joint CEO, HTML pages creator, social administrator
 Pages: index.html, HTML pages, maintainence.html, page.html
 
 Noah
