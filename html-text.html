@@ -38,13 +38,15 @@
 			class Input extends React.Component {
 				render() {
 					return (
-						React.CreateElement('input', {type: 'text'}, null),
-						React.CreateElement('input', {type: 'text', value: 'submit'}, null)
+						<div>
+							<input type="text" />
+							<input type="submit" text="submit" />
+						</div>
 					);
 					
 				};
 			};
-			ReactDOM.render(React.CreateElement('Input', null, null), document.getElementById('JS'));
+			ReactDOM.render(<Input />, document.getElementById('JS'));
 		</script>
 	</body>
 </html>
