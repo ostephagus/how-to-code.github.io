@@ -24,17 +24,27 @@
    		</div>
    		<div class="sub-container tutorial">
     		<div class="step 1">
-					<h3>Step 1</h3>
-					<input type="text" id="step 1">
-					<input type="submit" value="Submit">
-					<p>In the box above paste this code &lt;h1&gt;Hello World&lt;/h1&gt;</p>
-					<p>You have just added a piece of code that in a 
-				</div>
+				<h3>Step 1</h3>
+				<div id="JS"><!-- This is where the JS will go --></div>
+				<p>In the box above paste this code &lt;h1&gt;Hello World&lt;/h1&gt;</p>
+				<p>You have just added a piece of code that in a </p>
+			</div>
    		<div>
   	</div>
 		<script>
 			import React from 'react';
 			import ReactDOM from 'react-dom';
+			
+			class Input extends React.Component {
+				render() {
+					return (
+						React.CreateElement('input', {type: 'text'}, null),
+						React.CreateElement('input', {type: 'text', value: 'submit'}, null)
+					);
+					
+				};
+			};
+			ReactDOM.render(React.CreateElement('Input', null, null), document.getElementById('JS'));
 		</script>
 	</body>
 </html>
