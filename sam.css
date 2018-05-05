@@ -48,7 +48,10 @@ td {
 .invisible {
   opacity: 0;
 }
-
+.logo {
+ border-radius: 50%;
+ width: 50px;
+}
 sidebar,
 .sidebar,
 nav {
