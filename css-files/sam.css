@@ -44,6 +44,10 @@ th,
 td {
   border-style: solid none none solid;
 }
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
 /* classes */
 .invisible {
   opacity: 0;
