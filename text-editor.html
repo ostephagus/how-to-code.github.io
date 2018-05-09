@@ -1,29 +1,23 @@
-<!DOCTYPE Html>
-	<html>
-		<head>
-			<link rel="stylesheet" type="css" href="/css-files/sam.css" />
-			<title>How To Code text editor</title>
-		</head>
-		<body>
-			<textarea cols="100" rows="30" name="text" id="text" style="border: 1px dotted rgb(0, 0, 0); width: 1365px; height: 934px; margin: 0px; z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none; background: transparent !important;" onclick="if(document.textform.text.value==default_text)document.textform.text.value=''" onkeydown="return insertTab(event,this);" onkeyup="return insertTab(event,this);" onkeypress="return insertTab(event,this);" data-gramm="true" data-txt_gramm_id="53520771-f1e0-8e64-a6c4-d0d4058049fd" data-gramm_id="53520771-f1e0-8e64-a6c4-d0d4058049fd" spellcheck="false" data-gramm_editor="true">
-				This is the how to code.net text editor
-			</textarea>
-			<script>
-			<!--
-			function sizeIt()
-			{
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="css" href="/css-files/sam.css" />
+		<title>How To Code text editor</title>
+	</head>
+	<body>
+		<textarea cols="100" rows="30" name="text" id="text" style="border: 1px dotted rgb(0, 0, 0); width: 1365px; height: 934px; margin: 0px; z-index: auto; position: relative; line-height: normal; font-size: 13.3333px; transition: none; background: transparent !important;" onclick="if(document.textform.text.value==default_text)document.textform.text.value=''" onkeydown="return insertTab(event,this);" onkeyup="return insertTab(event,this);" onkeypress="return insertTab(event,this);" data-gramm="true" data-txt_gramm_id="53520771-f1e0-8e64-a6c4-d0d4058049fd" data-gramm_id="53520771-f1e0-8e64-a6c4-d0d4058049fd" spellcheck="false" data-gramm_editor="true">
+			This is the how to code.net text editor
+		</textarea>
+		<script>
+			function sizeIt() {
 				var agent = navigator.userAgent.toLowerCase();
 				//for msie
-				if(agent.indexOf("msie") !== -1)
-				{
+				if (agent.indexOf("msie") !== -1) {
 					bwidth=document.body.offsetWidth;
 					bheight=document.body.offsetHeight;
 					document.forms[0].elements[0].style.width = (bwidth-20);
 					document.forms[0].elements[0].style.height = (bheight-40);
-				}
-				//for mozilla + others
-				else
-				{
+				}/*for mozilla + others*/ else {
 					bwidth=innerWidth;
 					bheight=innerHeight;
 					document.forms[0].elements[0].style.width = (bwidth);
@@ -33,7 +27,6 @@
 			}
 			sizeIt();
 			window.onresize=sizeIt;
-			//-->
 		</script>
 	</body>
 </html>
