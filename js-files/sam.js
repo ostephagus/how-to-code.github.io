@@ -1,5 +1,5 @@
 $('.menu').on('mouseenter', () => {
-	$('nav').fadeIn(400);
+	$('nav').slideIn(500);
 }).on('mouseleave', () => {
-	$('nav').fadeOut(400);
+	$('nav').slideOut(500);
 });
