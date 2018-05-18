@@ -119,6 +119,13 @@ nav {
   color: orange;
   text-decoration: underline;
 }
+.button {
+  width: 210px; 
+  box-sizing: content-box;
+  padding: 2px;
+  border: 10px red;
+  background-color: orange;
+}
 /*classes and tags*/
 .sidebar a {
   font-size: 100px;
