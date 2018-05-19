@@ -54,7 +54,7 @@ a img {
 }
 /* classes */
 .invisible {
-  opacity: 0;
+  display: none;
 }
 .logo {
  border-radius: 50%;
