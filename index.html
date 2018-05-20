@@ -1,36 +1,31 @@
 <!DOCTYPE html>
-<html class="setup" lang="en-UK">
+<html lang="en-UK">
 	<head>
- 		<title>How to code</title>
-		<link rel="icon" href="How-to-code-logo-non-edit.png" />
-		<style>
-			p {
-				font-size: 40px;
-				text-align: center;
-			}
-			h4 {
-				font-size:20px;
-				text-align: center;
-				color: blue;
-			}
-		</style>
-		
+		<link rel='stylesheet' type='text/css' href='/css-files/sam.css'>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<title>How to code</title>
+		<link rel="icon" href="../How-to-code-logo-non-edit.png" />
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	</head>
 	<body>
-		<p>Sorry, we're working around the clock on cool new additions to the website. It should be up and running again in <strong><span id="date"></span> days</strong>. Sorry for any inconvenience caused.</p>
-		<h4>~ The How To Code team</h4>
-		<script>
-			var d = new Date();
-			var date = d.getDate();
-			if (date === 29) {
- 			 var forMonth = -1;
-			} else if (date === 30) {
-			  var forMonth = 0;
-			} else {
-			  var forMonth = date;
-			};
-			var daysToGo = 20 - forMonth;
-			document.getElementById("date").innerHTML = daysToGo;
-		</script>
+		<div class="menu">
+			<p class="button menu-button">Menu</p>
+			<nav style="display: none;">
+				<a href="python/python-page.html">Python</a><br />
+				<a href="html/html-page.html">HTML</a><br />
+				<a href="css/css-page.html">CSS</a><br />
+				<a href="contact.html">Contact us</a><br />
+			</nav>
+		</div>
+		<h1 class="index">Welcome to How To Code!</h1>
+		<h2 class="index">The top coding site for beginners!</h2>
+		<p class="index">How to code is the best starting point for a wide range of programming languages. From web design to coded art&mdash;you can count on us to get you started.</p>
+   		<h2>What is coding?</h2>
+		<p>Coding is the way that you can talk to a computer so that it understands you.</p>
+		<h2>Why Code?</h2>
+		<p>Coding is a vital skill for our computerised generation. Literally all of the websites on the internet, all of the computer games you play and all of the apps you use are made with coding.</p>
+		<p>Now you can go back to the top menu and start your tutorial!</p>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+		<script src="js-files/sam.js"></script>
 	</body>
 </html>
