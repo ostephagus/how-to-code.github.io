@@ -69,7 +69,7 @@ nav {
  	height: 300px;
  	width: 97%;
  	background-color: #3CFF33;
- 	position: relative;
+ 	position: fixed;
  	z-index: 1;
 	text-align: center !important;
 	padding: 20px;
