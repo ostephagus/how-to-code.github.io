@@ -12,5 +12,5 @@ function navB() {
 	});
 }
 while true {
-	navB()
+	navA()
 }
