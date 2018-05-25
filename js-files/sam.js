@@ -1,7 +1,7 @@
 //Hide the nav menu then show it when mouse is hovered
-console.log('JavaScript file running at version 1.1.6');
+console.log('JavaScript file running at version 1.1.7');
 $('nav').hide();
-window.setInterval(handleNav, 1000)
+window.setInterval(handleNav, 2000)
 
 function handleNav() {
 	$('.menu').on('mouseenter', () => {
