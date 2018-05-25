@@ -11,6 +11,6 @@ function navB() {
 		$('nav').fadeOut(500);
 	});
 }
-while true {
+while (true) {
 	navA()
 }
