@@ -76,7 +76,7 @@ nav {
 }
 .page-title {
   color: blue;
-
+}
 .python-button {
   width: 144px;
   box-sizing: content-box;
@@ -125,6 +125,9 @@ nav {
   padding: 2px;
   border: 10px red;
   background-color: orange;
+}
+.button .menu-button {
+	background-color: purple;
 }
 /*classes and tags*/
 .sidebar a {
