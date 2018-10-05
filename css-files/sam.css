@@ -126,9 +126,6 @@ nav {
   border: 10px red;
   background-color: orange;
 }
-.button.menu-button {
-	background-color: purple;
-}
 /*classes and tags*/
 .sidebar a {
   font-size: 100px;
