@@ -126,7 +126,8 @@ nav {
   border: 10px red;
   background-color: orange;
 }
-.button .menu-button {
+.button,
+.menu-button {
 	background-color: purple;
 }
 /*classes and tags*/
