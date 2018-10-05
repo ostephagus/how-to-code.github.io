@@ -135,31 +135,7 @@ th.rt,
 td.rt {
   border-style: solid solid none solid;
 }
-h1.index {
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  background-color: purple;
-}
-a.index,
-p.index,
-.site-button {
-  color: whitesmoke;
-  text-decoration: none;
-  text-align: center;
-}
-p.index {
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  background-color: purple;
-}
-h2.index {
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  background-color: purple;
-}
+
 html.setup {
   background-color: purple;
   background-size: 100%;
