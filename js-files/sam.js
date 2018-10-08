@@ -5,4 +5,10 @@ $(document).ready(() => {
 	$('.menu').on('click', () => {
 		$('nav').fadeToggle(500);
 	});
+	setTimeout(function () {
+	        $("#MaintenanceBanner").fadeIn(200);
+     	}, 4000);
+    	$("#closeMaintenanceBanner, .maintenanceBannerOK").click(function() {
+        $("#maintenanceBanner").fadeOut(200);
+    }); 
 });
