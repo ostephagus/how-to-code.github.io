@@ -125,6 +125,7 @@ nav {
   padding: 2px;
   border: 10px red;
   background-color: orange;
+	position: fixed;
 }
 /*classes and tags*/
 .sidebar a {
