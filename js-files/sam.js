@@ -8,7 +8,7 @@ $(document).ready(() => {
 	setTimeout(function () {
 	        $("#MaintenanceBanner").fadeIn(200);
      	}, 4000);
-    	$("#closeMaintenanceBanner, .maintenanceBannerOK").click(function() {
-        $("#maintenanceBanner").fadeOut(200);
-    }); 
+	$("#closeMaintenanceBanner, .maintenanceBannerOK").click(function() {
+		$("#maintenanceBanner").fadeOut(200);
+	}); 
 });
