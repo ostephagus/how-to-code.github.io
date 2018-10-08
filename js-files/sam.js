@@ -1,5 +1,5 @@
 //Hide the nav menu then show it when mouse is hovered
-console.log('JavaScript file running at version 1.1.13');
+console.log('JavaScript file running at version 1.2.1');
 $(document).ready(() => {
 	$('nav').hide();
 	$('.menu').on('click', () => {
