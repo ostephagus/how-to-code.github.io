@@ -1,12 +1,11 @@
-//Hide the nav menu then show it when mouse is hovered
-console.log('JavaScript file running at version 1.2.2');
+console.log('JavaScript file running at version 1.2.3');
 $(document).ready(() => {
 	$('nav').hide();
+	$("#MaintenanceBanner").fadeIn(200);
 	$('.menu').on('click', () => {
 		$('nav').fadeToggle(500);
 	});
-	$("#MaintenanceBanner").fadeIn(200);
-	$("#closeMaintenanceBanner, .maintenanceBannerOK").click(function() {
+	$("#closeMaintenanceBanner, .maintenanceBannerOK").on("click", () => {
 		$("#maintenanceBanner").fadeOut(200);
 	}); 
 });
