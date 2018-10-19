@@ -5,7 +5,7 @@ $(document).ready(() => {
 	$('.menu').on('click', () => {
 		$('nav').fadeToggle(500);
 	});
-	$("#closeMaintenanceBanner, .maintenanceBannerOK").on("click", () => {
+	$("#closeMaintenanceBanner, .maintenanceBannerOK").on('click', () => {
 		$("#maintenanceBanner").fadeOut(200);
 	}); 
 });
