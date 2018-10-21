@@ -120,13 +120,12 @@ nav {
   text-decoration: underline;
 }
 .menu-button {
-  width: auto;
-  box-sizing: content-box;
-  padding: 2px;
-  border: 10px red;
-  background-color: orange;
+	text-align: center;
+	width: 97%;
+	box-sizing: content-box;
+	padding: 2px;
+	background-color: orange;
 	position: fixed;
-	left: 49.25%;
 }
 /*classes and tags*/
 .sidebar a {
